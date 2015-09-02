@@ -13,6 +13,21 @@
     },
     "angularjs/angular.d.ts": {
       "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "gulp/gulp.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "orchestrator/orchestrator.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "node/node.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "q/Q.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
+    },
+    "gulp-sass/gulp-sass.d.ts": {
+      "commit": "af76bf46025371c760d8fe8c03cf874428da6124"
     }
   }
 }

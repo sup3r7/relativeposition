@@ -9,4 +9,5 @@ class PositionSetter {
 	}
 	
 	Move: (name: string) => number = (name) => { return name.length};
+	Hide = function(Item) {};
 }

@@ -1,8 +1,9 @@
-{ 
+ { 
 	"compilerOptions": {
 		"target": "es5",
 		"module": "commonjs",
 		"sourceMap": true,
-	    "outDir": "app//scripts//"	
+	    "outDir": "app//scripts//"	,
+		"removeComments": true
 	}
-}
+ }
