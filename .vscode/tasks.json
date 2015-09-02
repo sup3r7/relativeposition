@@ -26,7 +26,7 @@
 	}, 
 	
 	// args is the HelloWorld program to compile.
-	"args": ["${file}"],
+	"args": [],
 
 	// use the standard tsc problem matcher to find compile problems
 	// in the output.
@@ -60,7 +60,7 @@
 
 // A task runner configuration for gulp. Gulp provides a less task
 // which compiles less to css.
-/*
+
 {
 	"version": "0.1.0",
 	"command": "gulp",
@@ -68,16 +68,16 @@
 	"tasks": [
 		{
 			"taskName": "less",
-			// Make this the default build command.
+			Make this the default build command.
 			"isBuildCommand": true,
-			// Show the output window only if unrecognized errors occur.
+			Show the output window only if unrecognized errors occur.
 			"showOutput": "silent",
-			// Use the standard less compilation problem matcher.
+			Use the standard less compilation problem matcher.
 			"problemMatcher": "$lessCompile"
 		}
 	]
 }
-*/
+
 
 // Uncomment the following section to use jake to build a workspace
 // cloned from https://github.com/Microsoft/TypeScript.git
