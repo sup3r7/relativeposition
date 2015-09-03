@@ -8,7 +8,7 @@
 
 // A task runner that calls the Typescript compiler (tsc) and
 // Compiles a HelloWorld.ts program
-{
+/*{
 	"version": "0.1.0",
 
 	// The command is tsc. Assumes that tsc has been installed using npm install -g typescript
@@ -32,7 +32,7 @@
 	// in the output.
 	"problemMatcher": "$tsc"
 }
-
+*/
 // A task runner that calls the Typescript compiler (tsc) and
 // compiles based on a tsconfig.json file that is present in
 // the root of the folder open in VSCode
@@ -60,7 +60,7 @@
 
 // A task runner configuration for gulp. Gulp provides a less task
 // which compiles less to css.
-
+/*
 {
 	"version": "0.1.0",
 	"command": "gulp",
@@ -76,7 +76,7 @@
 			"problemMatcher": "$lessCompile"
 		}
 	]
-}
+}*/
 
 
 // Uncomment the following section to use jake to build a workspace
@@ -132,6 +132,32 @@
 	]
 }
 */
+
+{
+    "version": "0.1.0",
+    "command": "gulp",
+	
+	
+	
+    "isShellCommand": true,
+    "args": [
+        "--no-color"
+    ],
+    "tasks": [
+        {
+            "taskName": "styles",
+            "args": [],
+            "isBuildCommand": true,
+            "problemMatcher": "$gulp-tsc"
+        },
+        {
+            "taskName": "sass",
+            "args": [],
+            "isBuildCommand": true,
+            "problemMatcher": "$gulp-tsc"
+        }
+    ]
+}
 
 // Uncomment the following section to use msbuild which compiles Typescript
 // and less files.

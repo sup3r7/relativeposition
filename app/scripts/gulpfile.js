@@ -1,4 +1,16 @@
 /// <reference path="../../typings/tsd.d.ts" />
-var hejsan = "hejsan";
-var fabbe = "fabbe";
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+
+gulp.task('sass', function() {
+    gulp.src('*.scss')
+        .pipe(sass())
+        .pipe(gulp.dest(function(f) {
+            return f.base;
+        }))
+});
+
+gulp.task('default', function() {
+    gulp.watch('*.scss', ['sass']);
+})
 //# sourceMappingURL=gulpfile.js.map
